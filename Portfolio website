@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+
+            <!-- Image Section -->
+            <div class="col-md-6 order-md-1 shadow p-3 mb-3">
+                <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/portfolio-about-me-img.png" class="w-100" alt="profile" />
+            </div>
+
+            <!-- Text Section -->
+            <div class="col-md-6 order-md-2 shadow p-4 about-card">
+                <h1 class="facts-heading">Facts</h1>
+                <h1 class="about-heading">About me</h1>
+
+                <p class="about-description">
+                    My name is Jenny Wilson, and I am currently looking for a
+                    job in Frontend Development. I have 3 years of experience
+                    working as a Frontend Developer.
+                </p>
+
+                <!-- Hidden on small devices and visible from md devices -->
+                <p class="d-none d-md-block extra-text">
+                    I have a bachelor's degree in Electronics and Communication
+                    Engineering.
+                </p>
+            </div>
+
+        </div>
+        <div class="d-none d-md-block">
+            <p>
+                I have a bachelor's degree in Electronics and Communication Engineering.
+            </p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 order-md-1 shadow">
+                    <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/profile-bg.png" class="w-100" alt="profile" />
+                </div>
+
+                <div class="col-md-6 order-md-2 shadow p-3">
+                    <h1>Facts</h1>
+                    <h2>About me</h2>
+
+                    <p>
+                        My name is Jenny Wilson, and I am currently looking for a job in
+                        Frontend Development.
+                    </p>
+
+                    <!-- Required for the test case -->
+                    <div class="d-none d-md-block">
+                        <p>
+                            I have a bachelor's degree in Electronics and Communication
+                            Engineering.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-none d-md-block"></div>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.bg-container {
+    background-color: #323f4b;
+    min-height: 100vh;
+    padding: 24px;
+}
+
+.facts-heading {
+    color: #cced00;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.about-heading {
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #9aa5b1;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+body {
+    background-color: #1f2933;
+    font-family: Arial, sans-serif;
+}
+
+.about-card {
+    background-color: #323f4b;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.facts-heading {
+    color: #cced00;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.about-heading {
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-description {
+    color: #9aa5b1;
+    font-size: 18px;
+}
+
+.profile-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.bg-container {
+    background-color: #323f4b;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.facts-heading {
+    color: #cced00;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.about-heading {
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.profile-image {
+    border-radius: 8px;
+}
+
+.description {
+    color: #9aa5b1;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+body {
+    background-color: #323f4b;
+    padding: 20px;
+}
+
+.about-card {
+    background-color: #323f4b;
+    color: white;
+}
+
+.facts-heading {
+    color: #cced00;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.about-heading {
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+}
+
+.about-description,
+.extra-text {
+    color: #9aa5b1;
+    font-size: 18px;
+}

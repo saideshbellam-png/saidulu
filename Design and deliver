@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container pt-4 pb-4">
+        <div class="row">
+
+            <div class="col-12 col-md-6 mb-4">
+                <div class="feature-card text-center p-4">
+                    <img src="https://assets.ccbp.in/frontend/responsive-website/design-deliver-1-img.png" class="feature-image" alt="Design in Browser" />
+                    <h1 class="feature-heading mt-3">
+                        Design in the browser
+                    </h1>
+                    <p class="feature-description">
+                        A design is a plan or specification for the construction
+                        of an object or system or for the implementation of an
+                        activity or process. The verb to design expresses the
+                        process of developing a design.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 mb-4">
+                <div class="feature-card text-center p-4">
+                    <img src="https://assets.ccbp.in/frontend/responsive-website/design-deliver-2-img.png" class="feature-image" alt="Deliver Faster" />
+                    <h1 class="feature-heading mt-3">
+                        Deliver Faster
+                    </h1>
+                    <p class="feature-description">
+                        Publish responsive pages with your own domain name or
+                        export your work to host it yourself. It is great for
+                        decision making, prototyping and publishing single
+                        page websites.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #ffffff;
+}
+
+.feature-card {
+    border: 1px solid #dfe2e5;
+    border-radius: 8px;
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.feature-image {
+    width: 180px;
+    margin: auto;
+}
+
+.feature-heading {
+    color: #183b56;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.feature-description {
+    color: #616e7c;
+    font-size: 15px;
+    line-height: 1.7;
+}

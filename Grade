@@ -1,0 +1,15 @@
+def determine_grade(n):
+    if n > 85:
+        return "A"
+    elif 70 < n <= 85:
+        return "B"
+    elif 60 <= n <= 70:
+        return "C"
+    else:
+        return "F"
+try:
+    user_input = float(input())
+    output = determine_grade(user_input)
+    print(output)
+except ValueError:
+    print("Invalid input. Please enter a number.")
